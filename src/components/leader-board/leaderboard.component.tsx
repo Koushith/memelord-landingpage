@@ -24,16 +24,17 @@ export const LeaderBoardSection = () => {
             Meme Magician
           </Paragraph>
         </div>
-
         <div className="master">
           <img
-            src="https://framerusercontent.com/images/1ZpSa1mAZcVwMpV9MYrCzNqbE.jpg?scale-down-to=512"
+            src="https://framerusercontent.com/images/mqjZUMwI5vwxD6Vw7Q7IavHW7Fg.jpg?scale-down-to=512"
             alt="ing"
           />
           <Heading className="name" size={2}>
-            Koushith
+            Sally Sillyface
           </Heading>
-          <Paragraph size={1.6}>Meme Magician</Paragraph>
+          <Paragraph className="title" size={1.6}>
+            Meme Memeister
+          </Paragraph>
         </div>
       </div>
     </LeaderBoardContainer>
