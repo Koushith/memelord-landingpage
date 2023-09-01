@@ -7,6 +7,7 @@ interface TypographyProps {
   bolder?: boolean;
   className?: string;
   children: React.ReactNode;
+  onClick?: any;
 }
 
 interface HeadingProps extends TypographyProps {}
@@ -48,9 +49,16 @@ const Paragraph: React.FC<TypographyProps> = ({
   bolder,
   className,
   children,
+  onClick,
 }) => {
   return (
-    <Typography className={className} size={size} bold={bold} bolder={bolder}>
+    <Typography
+      onClick={onclick}
+      className={className}
+      size={size}
+      bold={bold}
+      bolder={bolder}
+    >
       {children}
     </Typography>
   );
@@ -69,6 +77,7 @@ const Heading: React.FC<HeadingProps> = ({
       size={size}
       bold={bold}
       bolder={bolder}
+      onClick={onclick}
     >
       {children}
     </StyledHeading>

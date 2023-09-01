@@ -17,7 +17,10 @@ export default function Home() {
     <>
       <Head>
         <title>MemeLoard</title>
-        <meta name="description" content="loremipsm-----------" />
+        <meta
+          name="description"
+          content="Welcome to Memeify, the ultimate hub for OG Memers. We'll help you create undeniable proof that you're the original mastermind behind the dankest memes on the web."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
