@@ -4,6 +4,7 @@ export const LeaderBoardContainer = styled.section`
   .heading {
     font-weight: 400;
     text-align: center;
+    margin-top: 10rem;
   }
 
   .sub-heading {
@@ -21,10 +22,12 @@ export const LeaderBoardContainer = styled.section`
     align-items: center;
     justify-content: center;
     gap: 4rem;
+    margin-bottom: 10rem;
     .master {
       background-color: #162027;
       padding: 40px 40px 40px 40px;
       border-radius: 3rem;
+      margin-top: 6rem;
       display: flex;
       flex-direction: column;
       align-items: center;

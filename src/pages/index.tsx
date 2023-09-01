@@ -2,7 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import { Container, HeroSection, LeaderBoardSection } from "@/components";
+import {
+  Container,
+  Footer,
+  HeroSection,
+  LeaderBoardSection,
+  StatusSection,
+} from "@/components";
 import { FAQSection } from "@/components/faq/faq.section";
 import { JoinNowSection } from "@/components/join/join.section";
 
@@ -27,9 +33,11 @@ export default function Home() {
       </Head>
       <Container>
         <HeroSection />
+        <StatusSection />
         <JoinNowSection />
         <LeaderBoardSection />
         <FAQSection />
+        <Footer />
       </Container>
     </>
   );

@@ -1,12 +1,16 @@
 import { styled } from "styled-components";
 
 export const FAQContainer = styled.section`
+  .heading {
+    margin-top: 10rem;
+  }
   .faq-lists {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 6rem;
     gap: 10rem;
+    margin-bottom: 10rem;
   }
 
   .question {

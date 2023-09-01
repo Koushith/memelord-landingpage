@@ -4,7 +4,7 @@ import { FAQContainer } from "./faq.styles";
 export const FAQSection = () => {
   return (
     <FAQContainer>
-      <Heading size={3.2} bold>
+      <Heading size={3.2} bold className="heading">
         MEME QUERIES
       </Heading>
       <div className="faq-lists">
