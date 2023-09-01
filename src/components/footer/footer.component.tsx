@@ -3,6 +3,7 @@ import { Paragraph } from "..";
 
 export const FooterContainer = styled.footer`
   padding: 4rem;
+  cursor: pointer;
   .footer-text {
     text-align: center;
     cursor: pointer; // Add a pointer cursor to indicate it's clickable
