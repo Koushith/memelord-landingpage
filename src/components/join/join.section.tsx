@@ -15,7 +15,11 @@ export const JoinNowSection = () => {
 
       <div className="input-container">
         <input type="email" placeholder="johndoe@gmail.com" className="email" />
-        <button className="button">Join Now</button>
+        <button className="button">
+          <a target="_next" href="https://memelord.vercel.app/">
+            Join Now
+          </a>
+        </button>
       </div>
     </JoinSectionContainer>
   );
