@@ -15,7 +15,7 @@ export const HeroContainer = styled.section`
     }
 
     .heading {
-      font-size: 80px;
+      font-size: 8rem;
       letter-spacing: 0em;
       line-height: 1.1;
       text-align: left;
@@ -25,7 +25,7 @@ export const HeroContainer = styled.section`
 
     .sub-heading {
       color: #ffffff;
-      font-size: 16px;
+      font-size: 1.6rem;
       letter-spacing: 0em;
       line-height: 1.5;
       text-align: left;
@@ -50,6 +50,27 @@ export const HeroContainer = styled.section`
       z-index: 1;
       width: fit-content;
       margin-top: 5rem;
+    }
+  }
+
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+  @media (max-width: 544px) {
+    .left {
+      margin-top: 14rem;
+      .heading {
+        text-align: left;
+        font-size: 7rem;
+        margin-top: 3rem;
+      }
+      .sub-heading {
+        margin-top: 2rem;
+      }
+
+      .button {
+        margin-top: 2rem;
+      }
     }
   }
 `;

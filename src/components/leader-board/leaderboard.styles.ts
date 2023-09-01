@@ -53,4 +53,33 @@ export const LeaderBoardContainer = styled.section`
       }
     }
   }
+
+  /**************************/
+  /* BELOW 944px (Tablets) -> 59*16=944 */
+  /**************************/
+
+  @media (max-width: 944px) {
+    .leaders {
+      /* flex-wrap: wrap; */
+      gap: 2rem;
+      .master {
+        width: 100%;
+        padding: 2rem;
+      }
+    }
+  }
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+  @media (max-width: 544px) {
+    .leaders {
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 0 1rem;
+      .master {
+        width: 100%;
+        padding: 2rem;
+      }
+    }
+  }
 `;

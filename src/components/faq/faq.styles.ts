@@ -26,4 +26,15 @@ export const FAQContainer = styled.section`
     letter-spacing: 0em;
     line-height: 1.5;
   }
+
+  /**************************/
+  /* BELOW 944px (Tablets) -> 59*16=944 */
+  /**************************/
+
+  @media (max-width: 944px) {
+    .faq-lists {
+      flex-wrap: wrap;
+      gap: 4rem;
+    }
+  }
 `;
