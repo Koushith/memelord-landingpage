@@ -18,11 +18,7 @@ export const HeroSection = () => {
           web.
         </Paragraph>
 
-        <div className="button">
-          <a target="_next" href="https://memelord.vercel.app/">
-            Try Now
-          </a>
-        </div>
+        <div className="button"></div>
       </div>
     </HeroContainer>
   );
